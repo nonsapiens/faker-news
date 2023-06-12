@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace Nonsapiens\FakerNews;
 
 use Illuminate\Support\Facades\Facade;
 

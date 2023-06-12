@@ -20,5 +20,15 @@
     "require": {
         "php": ">=7.1.0",
         "fakerphp/faker": "^1.20"
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Nonsapiens\\FakerNews\\NewsServiceProvider"
+            ],
+            "aliases" : {
+                "News" : "Nonsapiens\\FakerNews\\NewsFacade"
+            }
+        }
     }
 }
