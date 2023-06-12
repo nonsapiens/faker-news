@@ -1,0 +1,24 @@
+{
+    "name": "nonsapiens/faker-news",
+    "description": "A Laravel library to extend Faker to allow for the realistic creation of news articles for use in seeding and testing",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nonsapiens\\FakerNews\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stuart Steedman",
+            "email": "stuart@steedman.co.za"
+        }
+    ],
+    "require-dev": {
+        "illuminate/support": "^10.13",
+        "laravel/laravel": "^10.2"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "fakerphp/faker": "^1.23"
+    }
+}
