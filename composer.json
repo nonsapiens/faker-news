@@ -19,6 +19,6 @@
     },
     "require": {
         "php": ">=7.1.0",
-        "fakerphp/faker": "^1.23"
+        "fakerphp/faker": "^1.20"
     }
 }
